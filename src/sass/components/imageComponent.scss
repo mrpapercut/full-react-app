@@ -1,0 +1,31 @@
+.imagecomponent {
+    div {
+        float: left;
+        clear: both;
+        margin-bottom: 2rem;
+
+        span,
+        img,
+        em {
+            float: left;
+            clear: both;
+        }
+
+        &.background-image {
+            background-image: url(/assets/images/incognitocat.png);
+            background-repeat: none;
+            width: 229px;
+            height: 408px;
+            position: relative;
+
+            em {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                background: $overlayColor;
+            }
+        }
+    }
+}

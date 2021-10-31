@@ -1,0 +1,27 @@
+.sidebar {
+    background-image: url(/assets/images/sidebar_bg.png);
+    background-color: $skyblue;
+    background-repeat: repeat-y;
+    background-position: top right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 100vh;
+
+    .sidebar-title {
+        color: $linkColor;
+        margin-left: 1rem;
+    }
+
+    .sidebar-item a {
+        line-height: 3rem;
+        padding-left: 1rem;
+        display: inline-block;
+        width: 8.75vw;
+
+        &:hover {
+            background: $overlayColor;
+        }
+    }
+}

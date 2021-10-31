@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StateComponent 1`] = `
+<div
+  className="statecomponent"
+>
+  <h2
+    className="pagetitle"
+  >
+    State Component
+  </h2>
+  <div>
+    <label
+      htmlFor="checkbox"
+    >
+      <span>
+        Checkbox
+      </span>
+    </label>
+    <input
+      checked={false}
+      id="checkbox"
+      onChange={[Function]}
+      type="checkbox"
+    />
+  </div>
+</div>
+`;

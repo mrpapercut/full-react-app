@@ -1,0 +1,7 @@
+{
+    "jsEntryFile": "./src/js/index.js",
+    "jsOutputFolder": "dist",
+    "jsOutputFile": "main",
+    "serverPort": 3000,
+    "siteTitle": "Full React app"
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainComponent 1`] = `
+<div
+  className="maincomponent"
+>
+  <h2
+    className="pagetitle"
+  >
+    Main Component
+  </h2>
+</div>
+`;

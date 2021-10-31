@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar 1`] = `
+<div
+  className="sidebar"
+>
+  <h2
+    className="sidebar-title"
+  >
+    Sidebar
+  </h2>
+  <div
+    className="sidebar-item"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      MainComponent
+    </a>
+  </div>
+  <div
+    className="sidebar-item"
+  >
+    <a
+      href="/image"
+      onClick={[Function]}
+    >
+      ImageComponent
+    </a>
+  </div>
+  <div
+    className="sidebar-item"
+  >
+    <a
+      href="/state"
+      onClick={[Function]}
+    >
+      StateComponent
+    </a>
+  </div>
+  <div
+    className="sidebar-item"
+  >
+    <a
+      href="/store"
+      onClick={[Function]}
+    >
+      StoreComponent
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+version: "3.8"
+
+networks:
+  default:
+    name: reactapp_network
+
+services:
+  reactapp:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: reactapp
+    command: /bin/sh -c "npm run build && npm run server"
+    ports:
+      - "3000:3000"

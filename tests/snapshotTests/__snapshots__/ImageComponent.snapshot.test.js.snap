@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageComponent 1`] = `
+<div
+  className="imagecomponent"
+>
+  <h2
+    className="pagetitle"
+  >
+    Image Component
+  </h2>
+  <div
+    className="img-tag-image"
+  >
+    <span>
+      Image in &lt;img&gt;-tag
+    </span>
+    <img
+      src="/assets/images/incognitocat.png"
+    />
+    <em>
+      I see you but you can't see me
+    </em>
+  </div>
+  <div
+    className="background-image"
+  >
+    <em>
+      Image in CSS background
+    </em>
+  </div>
+</div>
+`;

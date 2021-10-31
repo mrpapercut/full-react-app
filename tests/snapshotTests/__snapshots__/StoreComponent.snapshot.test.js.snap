@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoreComponent 1`] = `
+<div
+  className="storecomponent"
+>
+  <h2
+    className="pagetitle"
+  >
+    Store Component
+  </h2>
+</div>
+`;

@@ -1,0 +1,24 @@
+body {
+    font-family: $mainFont;
+    background: $backgroundColor;
+    color: $textColor;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.mainwindow {
+    margin-left: 10vw;
+    padding: 0 2rem;
+
+    .pagetitle {
+        border-bottom: 1px solid $textColor;
+        padding-bottom: .5rem;
+    }
+}
